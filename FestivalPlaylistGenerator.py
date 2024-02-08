@@ -10,6 +10,12 @@ from datetime import datetime, timedelta
 
 load_dotenv()
 
+""" 
+REDIRECT_URI = "http://localhost:5000/callback"
+AUTH_URL = "https://accounts.spotify.com/authorize"
+TOKEN_URL = "https://accounts.spotify.com/api/token"
+API_BASE_URL = "https://api.spotify.com/v1/" 
+"""
 
 app = Flask(__name__)
 app.secret_key = '3rj4j5j6-3j4j5j-222j-2350293jjj'
